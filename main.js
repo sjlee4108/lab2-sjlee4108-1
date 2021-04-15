@@ -4,7 +4,6 @@ var question_len = 0;
 var resultData = {weights:[]};
 
 //create quiz section based on data
-
 function addSections(data) {
     console.log(data)
     data.forEach(function(item, index){
@@ -37,6 +36,7 @@ function addSections(data) {
     console.log(resultData.weights)
 }
 
+//computing result based on choices array
 function computeResult(choices){
     var resultWeight;
     choices.forEach(function(item, i){
@@ -52,6 +52,7 @@ function computeResult(choices){
     return resultWeight;
 }
 
+//adding result section frame
 function addResultSection(){
     let result = $("<section id = 'resultSection'><h2>You are . . . .</h2><div id = 'resultContent'><img src = '' alt = 'resultimg'><div>Result text</div></section>")
     result.appendTo($("main > div"));
