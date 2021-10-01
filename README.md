@@ -12,8 +12,8 @@
 
 ## What Didn't
 
-* Resizing based on window size was very tricky. Since I have a small side animation, it made it hard to preserve good ratio when resizing. 
-* Quiz contents were quite tricky. It is quite hard to get a good answer for some cases. 
+* Resizing based on window size was very tricky. Since I have a small side animation, it was hard to preserve the ratio when resizing. 
+* Quiz contents were quite tricky. It is quite hard to get a reasonable answer for some cases. 
 
 ## Extra Credit
 
@@ -26,9 +26,9 @@ For the extra credit, I did both options.
 
 This image shows how the page shows a message at the bottom when next button is clicked without an answer.
 
-![ScreenShot]('./Screenshots/alert.png')
+![ScreenShot]('./screenshots/alert.png')
 
 This image shows progress bar that I made with animation.
 
-![ScreenShot]('./Screenshots/progress.png')
+![ScreenShot]('./screenshots/progress.png')
 
